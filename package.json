@@ -7,22 +7,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~50.0.17",
-    "expo-status-bar": "~1.11.1",
-    "react": "18.2.0",
-    "react-native": "0.73.6",
-    "react-native-paper": "4.9.2",
-    "@expo/vector-icons": "^14.0.0",
-    "expo-sensors": "~12.9.1",
-    "expo-camera": "~14.1.1",
-    "@react-native-async-storage/async-storage": "1.21.0",
-    "expo-battery": "~7.7.2",
-    "expo-haptics": "~12.8.1",
-    "expo-screen-orientation": "~6.4.1",
-    "expo-navigation-bar": "~2.8.1"
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "expo": "^53.0.0",
+    "expo-battery": "~9.1.4",
+    "expo-camera": "~16.1.10",
+    "expo-cli": "^6.3.12",
+    "expo-haptics": "~14.1.4",
+    "expo-navigation-bar": "~4.2.7",
+    "expo-screen-orientation": "~8.1.7",
+    "expo-sensors": "~14.1.4",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-paper": "4.9.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.26.0"
   },
   "private": true
 }

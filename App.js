@@ -18,7 +18,7 @@ import { Text, View, StyleSheet, Dimensions, PanResponder, AppState,  // Some UI
   Button, TouchableHighlight, StatusBar,                              // …and StatusBar for fullscreen
   Platform } from 'react-native';                                     // …and Platform to try and get Android to work somehow
 import { Accelerometer, Gyroscope } from 'expo-sensors';              // Accelerometer and gyroscope for steering
-import { CameraView, Camera } from "expo-camera/next";                // Bar code scanner for connecting to CSP
+import { CameraView, Camera } from "expo-camera";                // Bar code scanner for connecting to CSP
 import AsyncStorage from '@react-native-async-storage/async-storage'; // Storage for remembering previously used local address
 import * as Battery from 'expo-battery';                              // Battery monitoring for showring a warning icon in AC
 import * as Haptics from 'expo-haptics';                              // Haptics for simulating basic vibration
